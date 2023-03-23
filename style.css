@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    background-size: cover;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 100vw;
+
+}
+
+.container {
+    margin: 150px;
+    display: grid;
+}
+
+.first-grid-container {
+    display: grid;
+    grid-template-columns: 540px 250px;
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.daniel-card {
+    padding: 25px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 55%, 52%);
+    box-shadow: 3px 3px 5px grey;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 350px -1px;
+}
+
+.jonathan-card {
+    padding: 25px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    box-shadow: 3px 3px 5px grey;
+}
+
+.name {
+    font-size: 13px;
+    color: hsl(210, 46%, 95%);
+    margin-left: 40px;
+    margin-top: -19px;
+    padding-left: 8px;
+}
+
+.verified {
+    font-size: 12px;
+    color: hsl(210, 46%, 95%);
+    opacity: 50%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 8px;
+}
+
+.para {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-size: 13px;
+    color: hsl(210, 46%, 95%);
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+
+.second-grid-container {
+    display: grid;
+    grid-template-columns: 250px 540px;
+    column-gap: 30px;
+}
+
+.jeanette-card {
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 0%);
+    box-shadow: 3px 3px 5px grey;
+}
+
+.patrick-card {
+    padding: 25px;
+    border-radius: 8px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: 3px 3px 5px grey;
+}
+
+.name-black {
+    font-size: 13px;
+    color: hsl(0, 0%, 0%);
+    margin-left: 40px;
+    margin-top: -19px;
+    padding-left: 8px;
+}
+
+.verified-black {
+    font-size: 12px;
+    color: hsl(0, 0%, 0%);
+    opacity: 50%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    padding-left: 8px;
+}
+
+.quote-black {
+    font-size: 13px;
+    color: hsl(0, 0%, 0%);
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+
+.kira-card {
+    width: 250px;
+    padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    color: hsl(0, 0%, 0%);
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    margin-left: -260px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    border: 2px solid hsl(264, 43%, 70%);
+    border-radius: 15px;
+    margin-bottom: -15px;
+}
